@@ -5,95 +5,96 @@
 ### Cloud, Infrastructure & Cybersecurity Engineer (in training)
 
 Mastère Expert en Cloud, Sécurité & Infrastructure  
-Conception, sécurisation et automatisation d’infrastructures IT robustes
+Je conçois, sécurise et automatise des environnements IT fiables, observables et prêts pour la production.
 
 </div>
 
 ---
 
-## Profil
+## Executive Summary
 
-Étudiant en mastère spécialisé en **Cloud, Sécurité et Infrastructure**, avec une approche orientée exploitation réelle, résilience et amélioration continue.
+Je suis spécialisé en **infrastructure sécurisée**, avec une approche orientée:
 
-Domaines principaux:
+- fiabilité opérationnelle
+- sécurité défensive
+- automatisation et standardisation
+- documentation exploitable (runbooks, procédures, architecture)
 
-- Architecture systèmes et réseaux on-premise / cloud
-- Sécurité défensive (IDS/IPS, SIEM, firewalling)
-- Supervision et observabilité
-- Automatisation (Ansible, scripts, IaC)
-- Méthodologie de gestion des risques (EBIOS RM)
-- Pratiques DevSecOps
+Je travaille principalement sur des environnements Linux/Cloud, des stacks conteneurisées et des projets mêlant réseau, sécurité et supervision.
 
 ---
 
-## Compétences techniques
+## Core Competencies
+
+- **Cloud & Infra**: architecture réseau, segmentation, virtualisation, conteneurisation
+- **Cybersecurity**: IDS/IPS, SIEM, firewalling, réduction de surface d’attaque
+- **Observability**: supervision, métriques, alerting, troubleshooting
+- **Automation**: Ansible, scripting Bash, Infrastructure as Code
+- **Risk & Governance**: EBIOS RM, analyse de menaces, mesures de traitement
+
+---
+
+## Tech Stack
 
 <div align="center">
 
-![Linux](https://img.shields.io/badge/Linux-000?style=flat&logo=linux)  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)  
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible)  
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform)  
-![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat)  
-![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat)  
-![Wazuh](https://img.shields.io/badge/Wazuh-0052CC?style=flat)  
-![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat&logo=openvpn)  
+![Linux](https://img.shields.io/badge/Linux-000?style=flat&logo=linux)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform)
+![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat)
+![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat)
+![Wazuh](https://img.shields.io/badge/Wazuh-0052CC?style=flat)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat&logo=openvpn)
 ![Active Directory](https://img.shields.io/badge/ActiveDirectory-003366?style=flat&logo=windows)
 
 </div>
 
 ---
 
-## Réalisations clés
+## Featured Projects
 
-### Sécurisation d’infrastructure réseau
+### Zabbix Lab - C1 / C2 / C3
 
-- Mise en place de DMZ avec politiques de filtrage strictes
-- Stratégies **deny-by-default**, NAT et publication contrôlée de services
-- Segmentation logique et réduction de surface d’attaque
+Supervision complète d’un lab Docker:
 
-### Détection et corrélation de menaces
+- C1: Zabbix Server + Web + PostgreSQL
+- C2: Auto-registration agents avec noms propres et templates
+- C3: 3 machines logiques (web + api + agent) monitorées de bout en bout
 
-- Déploiement de chaînes IDS/SIEM (Suricata, Wazuh)
-- Création de règles de détection ciblées (brute force, flood, comportements anormaux)
-- Exploitation des journaux de sécurité et tableaux de bord d’investigation
+Repository: https://github.com/RobinThiriet/Zabbix
 
-### Supervision et monitoring
+### PLANK - Infrastructure Cloud Team
 
-- Déploiement de solutions de supervision (Centreon, Zabbix)
-- Construction d’indicateurs de santé système et alerting
-- Standardisation des environnements de monitoring conteneurisés
+Automatisation d’infrastructure et industrialisation:
 
-### Automatisation et industrialisation
+- déploiements standardisés
+- configuration automatisée
+- approche collaborative orientée exploitation
 
-- Déploiements reproductibles via Ansible et scripts d’orchestration
-- Structuration de stacks Docker réutilisables (environnements de lab)
-- Approche orientée documentation, runbooks et maintien en condition opérationnelle
+Repository: https://github.com/PLANK-Infra-Cloud/PLANK
 
 ---
 
-## Projets
+## Current Focus
 
-- **PLANK – Infrastructure Cloud Team**  
-  Automatisation d’infrastructure, configuration d’environnements et conteneurisation  
-  https://github.com/PLANK-Infra-Cloud/PLANK
-
-- **Zabbix Lab (C1/C2/C3)**  
-  Stack de supervision complète: core Zabbix, auto-enregistrement agents, monitoring applicatif  
-  https://github.com/RobinThiriet/Zabbix
+- Cloud Security (Azure / AWS / GCP)
+- DevSecOps pipelines et contrôles sécurité
+- SIEM avancé (corrélation, détection, réponse)
+- Renforcement des pratiques de production (MCO, runbooks, SLO)
 
 ---
 
-## Objectif professionnel
+## Career Goal
 
-À court/moyen terme:
+Évoluer vers un poste de:
 
 - Ingénieur Cybersécurité
 - Cloud Security Engineer
 - Analyste SOC
 - Ingénieur DevSecOps
 
-Avec une trajectoire vers des fonctions d’**architecture d’infrastructure sécurisée**.
+avec une trajectoire vers l’**architecture d’infrastructures sécurisées**.
 
 ---
 
@@ -105,4 +106,4 @@ Avec une trajectoire vers des fonctions d’**architecture d’infrastructure s�
 
 ---
 
-> "Security is not a feature. It is a design requirement."
+> ✨ « Un grand pouvoir implique de grandes responsabilités. »
