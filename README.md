@@ -1,139 +1,108 @@
 <div align="center">
 
-# 👋 Salut, moi c’est **Robin Thiriet**
+# Robin Thiriet
 
-🎓 Mastère Expert en Cloud, Sécurité & Infrastructure  
-💻 Passionné par les **infrastructures sécurisées**, le **Cloud Computing** et la **cyberdéfense**  
-🚀 Je conçois, bâtis, sécurise et automatise des environnements IT robustes
+### Cloud, Infrastructure & Cybersecurity Engineer (in training)
+
+Mastère Expert en Cloud, Sécurité & Infrastructure  
+Conception, sécurisation et automatisation d’infrastructures IT robustes
 
 </div>
 
 ---
 
-## 🧠 À propos de moi
+## Profil
 
-Je suis actuellement en **Mastère Expert en Cloud, Sécurité & Infrastructure**, avec une approche terrain sur :
+Étudiant en mastère spécialisé en **Cloud, Sécurité et Infrastructure**, avec une approche orientée exploitation réelle, résilience et amélioration continue.
 
-- ☁️ Architecture réseau et Cloud
-- 🔐 Sécurité défensive (IDS/IPS, SIEM, firewalling)
-- ⚙️ Automatisation (Ansible / IaC)
-- 📊 Supervision et monitoring
-- 🛡️ Analyse de risques (méthode EBIOS RM)
-- 🔄 CI/CD et DevSecOps
+Domaines principaux:
+
+- Architecture systèmes et réseaux on-premise / cloud
+- Sécurité défensive (IDS/IPS, SIEM, firewalling)
+- Supervision et observabilité
+- Automatisation (Ansible, scripts, IaC)
+- Méthodologie de gestion des risques (EBIOS RM)
+- Pratiques DevSecOps
 
 ---
 
-## 🛠️ Stack technique
+## Compétences techniques
 
 <div align="center">
 
 ![Linux](https://img.shields.io/badge/Linux-000?style=flat&logo=linux)  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)  
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible)  
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform)  
 ![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat)  
 ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat)  
 ![Wazuh](https://img.shields.io/badge/Wazuh-0052CC?style=flat)  
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible)  
 ![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat&logo=openvpn)  
-![Active Directory](https://img.shields.io/badge/ActiveDirectory-003366?style=flat&logo=windows)  
-![Centreon](https://img.shields.io/badge/Centreon-00A3E0?style=flat)  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)  
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform)
+![Active Directory](https://img.shields.io/badge/ActiveDirectory-003366?style=flat&logo=windows)
 
 </div>
 
 ---
 
-## 🚀 Projets réalisés
+## Réalisations clés
 
-### 🛡️ Sécurisation d’une DMZ avec pfSense
+### Sécurisation d’infrastructure réseau
 
-- Création d’une DMZ isolée avec règles firewall strictes
-- NAT / Port Forwarding pour services publics
-- Politique **Deny-by-Default**
-- Tests de conformité et sécurité réseau
+- Mise en place de DMZ avec politiques de filtrage strictes
+- Stratégies **deny-by-default**, NAT et publication contrôlée de services
+- Segmentation logique et réduction de surface d’attaque
 
-### 🌐 Proxy sécurisé (Internet filtré)
+### Détection et corrélation de menaces
 
-- Déploiement **Squid + SquidGuard**
-- Authentification **LDAP / Active Directory**
-- Portail captif pfSense
-- Segmentation des accès selon profils (Admin / Formation / Invité)
+- Déploiement de chaînes IDS/SIEM (Suricata, Wazuh)
+- Création de règles de détection ciblées (brute force, flood, comportements anormaux)
+- Exploitation des journaux de sécurité et tableaux de bord d’investigation
 
-### 🔎 Détection et corrélation IDS/SIEM
+### Supervision et monitoring
 
-- **Suricata** pour l’analyse du trafic réseau
-- **Wazuh SIEM** pour corrélation et détection d’alertes
-- Règles personnalisées :
-  - Brute force SSH
-  - SYN Flood
-  - ICMP Flood
-  - Connexions vers réseaux sociaux
-- Journalisation EVE JSON et dashboards Wazuh
+- Déploiement de solutions de supervision (Centreon, Zabbix)
+- Construction d’indicateurs de santé système et alerting
+- Standardisation des environnements de monitoring conteneurisés
 
-### 🔐 Réseau et accès sécurisés
+### Automatisation et industrialisation
 
-- VPN Client-to-Site (OpenVPN + PKI interne)
-- Auth LDAP/AD, Full/Split Tunnel
-- VLAN dynamique avec **RADIUS**
-- Auth WiFi WPA2-Enterprise
-
-### 📊 Supervision / Monitoring
-
-- Mise en place **Centreon** et **Zabbix**
-- Supervision Linux, Windows et Cisco
-- Notifications et seuils d’alertes
-- Collecte SNMP et métriques
-
-### ⚙️ Automatisation et IaC
-
-- Playbooks **Ansible** (GLPI, Apache2, MariaDB, PHP)
-- Déploiement automatisé d’environnements
-- Scripts réutilisables et modularité
-
-### 🧠 Analyse de risques – EBIOS RM
-
-- Identification des menaces et actifs critiques
-- Conception de mesures de sécurité adaptées
-- Documentation complète de l’analyse
+- Déploiements reproductibles via Ansible et scripts d’orchestration
+- Structuration de stacks Docker réutilisables (environnements de lab)
+- Approche orientée documentation, runbooks et maintien en condition opérationnelle
 
 ---
 
-## 📂 Organisation GitHub
+## Projets
 
-👉 Tu peux consulter mes projets ici :
-
-- 📌 **PLANK – Infrastructure Cloud Team**  
-  Automatisation infra, configurations Ansible et conteneurs  
+- **PLANK – Infrastructure Cloud Team**  
+  Automatisation d’infrastructure, configuration d’environnements et conteneurisation  
   https://github.com/PLANK-Infra-Cloud/PLANK
 
----
-
-## 🧩 Ce que j’apprends aujourd’hui
-
-- ☁️ Sécurité Cloud (Azure / AWS / GCP)
-- 🛡️ DevSecOps et SAST/DAST
-- 📊 SOAR et SIEM avancé (Splunk, Elastic)
-- 🧪 Testing automatisé de sécurité
+- **Zabbix Lab (C1/C2/C3)**  
+  Stack de supervision complète: core Zabbix, auto-enregistrement agents, monitoring applicatif  
+  https://github.com/RobinThiriet/Zabbix
 
 ---
 
-## 🎯 Objectif professionnel
+## Objectif professionnel
 
-Je vise un poste de :
+À court/moyen terme:
 
-- 🛡️ Ingénieur Cybersécurité
-- ☁️ Cloud Security Engineer
-- 🔎 Analyste SOC
-- ⚙️ DevSecOps
-- 🏗️ Architecte Infrastructure Sécurisée
+- Ingénieur Cybersécurité
+- Cloud Security Engineer
+- Analyste SOC
+- Ingénieur DevSecOps
 
----
-
-## 📫 Me contacter
-
-📧 **Email** : robin.thiriet@proton.me  
-🔗 **LinkedIn** : https://www.linkedin.com/in/robin-thiriet  
-🐙 **GitHub** : https://github.com/RobinThiriet
+Avec une trajectoire vers des fonctions d’**architecture d’infrastructure sécurisée**.
 
 ---
 
-✨ *« La sécurité n’est pas une option, c’est une responsabilité. »*
+## Contact
+
+- Email: **thiriet.robin@live.fr**
+- LinkedIn: **https://www.linkedin.com/in/robin-thiriet-03221723b/**
+- GitHub: **https://github.com/RobinThiriet**
+
+---
+
+> "Security is not a feature. It is a design requirement."
