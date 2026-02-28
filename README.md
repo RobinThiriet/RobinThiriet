@@ -4,7 +4,7 @@
 
 🎓 Mastère Expert en Cloud, Sécurité & Infrastructure  
 💻 Passionné par les **infrastructures sécurisées**, le **Cloud Computing** et la **cyberdéfense**  
-🚀 Je conçois, bâtis, sécurise et automatise des environnements IT robustes
+🚀 Je conçois des architecture, sécurise et automatise des environnements IT 
 
 </div>
 
