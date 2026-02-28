@@ -3,23 +3,20 @@
 # 👋 Salut, moi c’est **Robin Thiriet**
 
 🎓 Mastère Expert en Cloud, Sécurité & Infrastructure  
-💻 Passionné par les infrastructures sécurisées, le cloud et la cyberdéfense  
-🚀 Je conçois, bâtis, sécurise et automatise des environnements IT robustes
+🚀 Profil orienté **projets concrets**: supervision, sécurité réseau, cloud et automatisation
 
 </div>
 
 ---
 
-## 🧠 À propos de moi
+## 🧠 Positionnement
 
-Je développe des projets concrets autour de:
+Je construis des environnements IT fiables et sécurisés, avec une approche terrain:
 
-- ☁️ Architecture réseau & cloud
-- 🔐 Sécurité défensive (IDS/IPS, SIEM, firewalling)
-- ⚙️ Automatisation (Ansible / IaC)
-- 📊 Supervision & monitoring
-- 🛡️ Analyse de risques (EBIOS RM)
-- 🔄 CI/CD & DevSecOps
+- architecture réseau et cloud
+- sécurité défensive (IDS/IPS, SIEM, segmentation)
+- supervision et observabilité
+- automatisation (Ansible, scripts, IaC)
 
 ---
 
@@ -31,67 +28,77 @@ Je développe des projets concrets autour de:
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-### 🖥️ Virtualization & Hypervisors
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
-
-### ⚙️ Infrastructure & Configuration
+### ⚙️ Infrastructure & Automation
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
-
-### 📦 Containers & Orchestration
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-### 🚀 CI/CD & Automation
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-### 📊 Monitoring & Observability
+### 📊 Monitoring & Security
 ![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=for-the-badge&logo=zabbix&logoColor=white)
 ![Centreon](https://img.shields.io/badge/Centreon-00A3E0?style=for-the-badge)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-0052CC?style=for-the-badge)
-
-### 🔗 Networking & Security
-![pfSense](https://img.shields.io/badge/pfSense-212121?style=for-the-badge)
 ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge)
+![pfSense](https://img.shields.io/badge/pfSense-212121?style=for-the-badge)
 ![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Active%20Directory](https://img.shields.io/badge/Active%20Directory-003366?style=for-the-badge&logo=windows&logoColor=white)
 
 ---
 
-## 🚀 Projets réalisés
+## 🚀 Projets réalisés (issus de mes travaux)
 
-### 🛡️ Sécurisation d’une DMZ avec pfSense
-- Création d’une DMZ isolée avec règles firewall strictes
-- NAT/Port Forwarding pour services publics
-- Politique **Deny-by-Default**
+### 1) Supervision complète Zabbix (C1 / C2 / C3)
+- Stack Docker: Zabbix Server + Web + PostgreSQL
+- Auto-registration des agents + templates
+- Monitoring de 3 machines logiques (web + API + agent)
+- Runbooks de démarrage, reset et nettoyage
 
-### 🔎 Détection & corrélation IDS/SIEM
-- Déploiement **Suricata + Wazuh**
-- Règles personnalisées (brute force, flood, patterns anormaux)
-- Journalisation sécurité et dashboards
+🔗 https://github.com/RobinThiriet/Zabbix
 
-### 📊 Supervision / Monitoring
-- Mise en place **Centreon** et **Zabbix**
-- Supervision Linux, Windows et équipements réseau
-- Alerting, seuils et tableaux de bord temps réel
+### 2) Observabilité de microservices Python
+- 3 microservices REST (`user`, `product`, `order`) documentés Swagger
+- Exposition via Nginx et orchestration Docker Compose
+- Intégration monitoring avec agents Zabbix
 
-### ⚙️ Automatisation & IaC
-- Playbooks **Ansible** pour déploiements applicatifs
-- Scripts réutilisables orientés exploitation
+📁 Source de travail: `Documents/Observabilité des systèmes/microservice_python`
+
+### 3) Projet LAN Massy (architecture réseau entreprise)
+- Conception d’architectures cible (draw.io) et schémas logiques
+- Étude d’évolution LAN Cisco (switching, wifi, supervision)
+- Dossiers techniques, visuels d’architecture et cadrage projet
+
+📁 Source de travail: `Documents/Epreuve Certificatives/Projet LAN Massy`
+
+### 4) Sécurité réseau défensive (pfSense, Suricata, Wazuh)
+- Environnements de tests GNS3/pfSense
+- Scénarios de détection et corrélation d’événements sécurité
+- Travaux de référence architecture et matrice de flux
+
+📁 Source de travail: `Documents/CyberSécurité`
+
+### 5) Automatisation Cloud / IaC sur AWS
+- Terraform (`main.tf`, `variables.tf`, `outputs.tf`)
+- Exercices d’infrastructure et politiques IAM JSON
+- Approche reproductible orientée industrialisation
+
+📁 Source de travail: `Documents/Infrastructure AWS`
+
+### 6) Outils ITSM et pilotage projet
+- GLPI (inventaire / support), Grafana (visualisation)
+- Jira (backlog, Gantt, logigrammes)
+- Livrables de gouvernance (RACI, blocs de certification)
+
+📁 Source de travail: `Documents/Epreuve Certificatives`
 
 ---
 
-## 📂 Projets GitHub
+## 📌 Dépôts mis en avant
 
 - **PLANK – Infrastructure Cloud Team**  
   https://github.com/PLANK-Infra-Cloud/PLANK
 
-- **Zabbix Lab (C1/C2/C3)**  
+- **Zabbix Lab**  
   https://github.com/RobinThiriet/Zabbix
 
 ---
