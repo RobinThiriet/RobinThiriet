@@ -1,109 +1,146 @@
 <div align="center">
 
-# Robin Thiriet
+# 👋 Salut, moi c’est **Robin Thiriet**
 
-### Cloud, Infrastructure & Cybersecurity Engineer (in training)
-
-Mastère Expert en Cloud, Sécurité & Infrastructure  
-Je conçois, sécurise et automatise des environnements IT fiables, observables et prêts pour la production.
+🎓 Mastère Expert en Cloud, Sécurité & Infrastructure  
+💻 Passionné par les **infrastructures sécurisées**, le **Cloud Computing** et la **cyberdéfense**  
+🚀 Je conçois, bâtis, sécurise et automatise des environnements IT robustes
 
 </div>
 
 ---
 
-## Executive Summary
+## 🧠 À propos de moi
 
-Je suis spécialisé en **infrastructure sécurisée**, avec une approche orientée:
+Je suis actuellement en **Mastère Expert en Cloud, Sécurité & Infrastructure**, avec une approche très orientée **projets terrain**.
 
-- fiabilité opérationnelle
-- sécurité défensive
-- automatisation et standardisation
-- documentation exploitable (runbooks, procédures, architecture)
+Compétences appliquées dans mes réalisations:
 
-Je travaille principalement sur des environnements Linux/Cloud, des stacks conteneurisées et des projets mêlant réseau, sécurité et supervision.
-
----
-
-## Core Competencies
-
-- **Cloud & Infra**: architecture réseau, segmentation, virtualisation, conteneurisation
-- **Cybersecurity**: IDS/IPS, SIEM, firewalling, réduction de surface d’attaque
-- **Observability**: supervision, métriques, alerting, troubleshooting
-- **Automation**: Ansible, scripting Bash, Infrastructure as Code
-- **Risk & Governance**: EBIOS RM, analyse de menaces, mesures de traitement
+- ☁️ Architecture réseau et Cloud
+- 🔐 Sécurité défensive (IDS/IPS, SIEM, firewalling)
+- ⚙️ Automatisation (Ansible / IaC)
+- 📊 Supervision et monitoring
+- 🛡️ Analyse de risques (méthode EBIOS RM)
+- 🔄 CI/CD et DevSecOps
 
 ---
 
-## Tech Stack
+## 🛠️ Mon stack technique
 
 <div align="center">
 
-![Linux](https://img.shields.io/badge/Linux-000?style=flat&logo=linux)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible)
+![Linux](https://img.shields.io/badge/Linux-000?style=flat&logo=linux)  
+![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat)  
+![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat)  
+![Wazuh](https://img.shields.io/badge/Wazuh-0052CC?style=flat)  
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible)  
+![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat&logo=openvpn)  
+![Active Directory](https://img.shields.io/badge/ActiveDirectory-003366?style=flat&logo=windows)  
+![Centreon](https://img.shields.io/badge/Centreon-00A3E0?style=flat)  
+![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat&logo=zabbix)  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)  
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform)
-![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat)
-![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat)
-![Wazuh](https://img.shields.io/badge/Wazuh-0052CC?style=flat)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat&logo=openvpn)
-![Active Directory](https://img.shields.io/badge/ActiveDirectory-003366?style=flat&logo=windows)
 
 </div>
 
 ---
 
-## Featured Projects
+## 🚀 Projets réalisés
 
-### Zabbix Lab - C1 / C2 / C3
+### 🛡️ Sécurisation d’une DMZ avec pfSense
 
-Supervision complète d’un lab Docker:
+- Création d’une DMZ isolée avec règles firewall strictes
+- NAT / Port Forwarding pour services publics
+- Politique **Deny-by-Default**
+- Tests de conformité et sécurité réseau
 
-- C1: Zabbix Server + Web + PostgreSQL
-- C2: Auto-registration agents avec noms propres et templates
-- C3: 3 machines logiques (web + api + agent) monitorées de bout en bout
+### 🌐 Proxy sécurisé (Internet filtré)
 
-Repository: https://github.com/RobinThiriet/Zabbix
+- Déploiement **Squid + SquidGuard**
+- Authentification **LDAP / Active Directory**
+- Portail captif pfSense
+- Segmentation des accès selon profils (Admin / Formation / Invité)
 
-### PLANK - Infrastructure Cloud Team
+### 🔎 Détection et corrélation IDS/SIEM
 
-Automatisation d’infrastructure et industrialisation:
+- **Suricata** pour l’analyse du trafic réseau
+- **Wazuh SIEM** pour corrélation et détection d’alertes
+- Règles personnalisées:
+  - Brute force SSH
+  - SYN Flood
+  - ICMP Flood
+  - Connexions vers réseaux sociaux
+- Journalisation EVE JSON et dashboards Wazuh
 
-- déploiements standardisés
-- configuration automatisée
-- approche collaborative orientée exploitation
+### 🔐 Réseau et accès sécurisés
 
-Repository: https://github.com/PLANK-Infra-Cloud/PLANK
+- VPN Client-to-Site (OpenVPN + PKI interne)
+- Auth LDAP/AD, Full/Split Tunnel
+- VLAN dynamique avec **RADIUS**
+- Auth WiFi WPA2-Enterprise
+
+### 📊 Supervision / Monitoring
+
+- Mise en place **Centreon** et **Zabbix**
+- Supervision Linux, Windows et Cisco
+- Notifications et seuils d’alertes
+- Collecte SNMP, métriques et tableaux de bord
+
+### ⚙️ Automatisation et IaC
+
+- Playbooks **Ansible** (GLPI, Apache2, MariaDB, PHP)
+- Déploiement automatisé d’environnements
+- Scripts réutilisables et modularité
+
+### 🧠 Analyse de risques – EBIOS RM
+
+- Identification des menaces et actifs critiques
+- Conception de mesures de sécurité adaptées
+- Documentation complète de l’analyse
 
 ---
 
-## Current Focus
+## 📂 Organisation GitHub
 
-- Cloud Security (Azure / AWS / GCP)
-- DevSecOps pipelines et contrôles sécurité
-- SIEM avancé (corrélation, détection, réponse)
-- Renforcement des pratiques de production (MCO, runbooks, SLO)
+👉 Quelques dépôts représentatifs:
 
----
+- 📌 **PLANK – Infrastructure Cloud Team**  
+  Automatisation infra, configuration Ansible et conteneurs  
+  https://github.com/PLANK-Infra-Cloud/PLANK
 
-## Career Goal
-
-Évoluer vers un poste de:
-
-- Ingénieur Cybersécurité
-- Cloud Security Engineer
-- Analyste SOC
-- Ingénieur DevSecOps
-
-avec une trajectoire vers l’**architecture d’infrastructures sécurisées**.
+- 📌 **Zabbix Lab (C1/C2/C3)**  
+  Supervision complète: core Zabbix, auto-enregistrement agents, monitoring applicatif  
+  https://github.com/RobinThiriet/Zabbix
 
 ---
 
-## Contact
+## 🧩 Ce que j’apprends aujourd’hui
 
-- Email: **thiriet.robin@live.fr**
-- LinkedIn: **https://www.linkedin.com/in/robin-thiriet-03221723b/**
-- GitHub: **https://github.com/RobinThiriet**
+- ☁️ Sécurité Cloud (Azure / AWS / GCP)
+- 🛡️ DevSecOps et scanning (SAST/DAST)
+- 📊 SIEM/SOAR avancé (Splunk, Elastic)
+- 🧪 Tests de sécurité automatisés
 
 ---
 
-> ✨ « Un grand pouvoir implique de grandes responsabilités. »
+## 🎯 Objectif professionnel
+
+Je vise un poste de:
+
+- 🛡️ **Ingénieur Cybersécurité**
+- ☁️ **Cloud Security Engineer**
+- 🔎 **Analyste SOC**
+- ⚙️ **DevSecOps**
+- 🏗️ **Architecte Infrastructure Sécurisée**
+
+---
+
+## 📫 Me contacter
+
+📧 **Email**: thiriet.robin@live.fr  
+🔗 **LinkedIn**: https://www.linkedin.com/in/robin-thiriet-03221723b/  
+🐙 **GitHub**: https://github.com/RobinThiriet
+
+---
+
+✨ *« Un grand pouvoir implique de grandes responsabilités. »*
